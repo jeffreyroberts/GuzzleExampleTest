@@ -1,0 +1,17 @@
+{
+    "name": "jlroberts/guzzle-test",
+    "description": "Guzzle and Symfony Dom Crawler Example",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "symfony/dom-crawler": "^4.0",
+        "symfony/css-selector": "^4.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeffrey Roberts",
+            "email": "jeffrey.l.roberts@gmail.com"
+        }
+    ]
+}
