@@ -24,8 +24,6 @@ class App {
             'headers' => ['User-Agent' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.5 (KHTML, like Gecko) Chrome/4.0.249.0 Safari/532.5']
         ]);
 
-        echo "Response Code: " . $res->getStatusCode() . "\n";
-
         $html = (string)$res->getBody();
 
         return $html;
